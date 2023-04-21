@@ -1,2 +1,2 @@
-select * 
-from {{ source('orders') }}
+-- select * 
+-- from {{ source('dgb','orders') }}
