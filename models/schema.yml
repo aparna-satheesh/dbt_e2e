@@ -2,7 +2,6 @@ version: 2
 
 sources:
   - name: dgb
-  - database: dgb
     tables:
       - name: order
       - name: customer
