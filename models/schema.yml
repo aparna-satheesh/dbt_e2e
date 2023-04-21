@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: dgb
+  - schema: dgb
+    tables:
+      - name: order
+      - name: customer
+      - name: orderitem
+      - name: product
+      - name: source
