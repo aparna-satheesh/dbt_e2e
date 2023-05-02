@@ -1,2 +1,2 @@
 select * 
-from {{ source('dgb', 'orderitem') }}
+from {{ source('raw', 'orderitem') }}
