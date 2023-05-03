@@ -34,7 +34,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   demo:
     staging:
-      +schema: raw
+      +schema: bronze
     silver:
       +schema: silver
     kpis:
