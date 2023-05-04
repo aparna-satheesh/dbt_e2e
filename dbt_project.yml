@@ -32,10 +32,11 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   demo:
+    +materialized: table
     staging:
-      +schema: bronze
+      schema: bronze
     silver:
-      +schema: silver
+      schema: silver
     kpis:
-      +schema: kpis
+      schema: kpis
     
