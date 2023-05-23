@@ -1,10 +1,5 @@
-{{
-  config(
-    materialized='table',
-    schema='default',
-    external=True,
-    location='dbfs:/tmp/clv/'
-  )
-}}
+with calculated_total_amount as (
+  {{ calculate_total_amount(total_amount) }}
+)
 
-SELECT 1 as id, 'Aparna' as name;
+select * from calculate_total_amount
