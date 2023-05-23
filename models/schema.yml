@@ -8,3 +8,4 @@ sources:
       - name: orderitem
       - name: product
       - name: source
+      - name: example_2
